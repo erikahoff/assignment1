@@ -1,15 +1,29 @@
 {
-  "name": "hello-cli",
+  "name": "assignment1",
   "version": "1.0.0",
-  "description": "''",
-  "main": "bin/index.js",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "assignment1": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "Erika Hoff",
-  "license": "MIT"
-  "bin": {
-   "hello": "./bin/index.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikahoff/assignment1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikahoff/assignment1/issues"
+  },
+  "homepage": "https://github.com/erikahoff/assignment1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }, 
+  "engines": {
+    "node": "12.11.1"
  }
 }
