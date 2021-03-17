@@ -22,8 +22,9 @@
   "homepage": "https://github.com/erikahoff/assignment1#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }, 
+  },
   "engines": {
     "node": "12.11.1"
- }
+  },
+  "devDependencies": {}
 }

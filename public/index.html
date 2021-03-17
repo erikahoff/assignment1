@@ -1,27 +1,102 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <link href="css/style.css" rel="stylesheet"/>
     <meta charset="utf-8">
-    <title>My test page</title>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Meet the Characters in The Falcon and The Winter Soldier</title>
   </head>
   <body>
-    <h1>Hello Erika!</h1>
-    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+    <header>
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="img/video.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3 fw-bold"><i>The Falcon and The Winter Soldier</i></h1>
+        <p class="lead mb-0">Exclusively streaming on Disney+ March 19</p>
+      </div>
+    </div>
+  </div>
+</header>
+    <h1 class="text-center text-light bg-secondary bg-gradient" <div style="background-image: url('img/tfatws.jpeg');" >
+      Meet the Characters in Marvel Studios' <br><i>The Falcon and The Winter Soldier</i> </h1>
 
-    <p>At Mozilla, we’re a global community of</p>
+      <br>
+  
+                <p class="intro">The Falcon and the Winter Soldier is an upcoming Disney+ Original, the second in a long line of Marvel Studios and Disney+ collaborations. It details the characters Sam Wilson, the Falcon, and Bucky Barnes, The Winter Soldier, and their journey into a world post-Thanos, without their closest friend, Steve Rogers, AKA Captain America. Together, they'll face new foes and adjust to leading lives without a main character to stand behind.</p>
 
-    <ul> <!-- changed to list in the tutorial -->
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
-    </ul>
 
-    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+    <!-- Card, Sam -->
+<div
+    class="bg-image card shadow-1-strong"
+    style=" width: 310px;
+            background-image: url('img/sam.jpg');
+            background-size: cover;
+            "
+    >
+  <div class="card-body text-white">
+    <h5 class="card-title">Sam Wilson</h5>
+    <p class="card-text">
+      Meet Sam Wilson, the Falcon.
+    </p>
+    <a href="https://marvelcinematicuniverse.fandom.com/wiki/Falcon" class="btn btn-outline-light">Learn More</a>
+  </div>
+</div>
+<!-- Card, Sam -->
 
-    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
-    <button>Change user</button>
-    <script src="scripts/main.js"></script
+<br>
+
+   <!-- Card, Bucky -->
+<div
+    class="bg-image card shadow-1-strong"
+    style=" width: 310px;
+            background-image: url('img/bucky.jpg');
+            background-size: cover;
+            "
+    >
+  <div class="card-body text-white">
+    <h5 class="card-title">Bucky Barnes</h5>
+    <p class="card-text">
+      Meet James Buchanan Barnes, The Winter Soldier.
+    </p>
+    <a href="https://marvelcinematicuniverse.fandom.com/wiki/Winter_Soldier" class="btn btn-outline-light">Learn More</a>
+  </div>
+</div>
+<!-- Card, Bucky -->
+
+<br>
+
+   <!-- Card, Sharon -->
+<div
+    class="bg-image card shadow-1-strong"
+    style=" width: 310px;
+            background-image: url('img/sharon.jpg');
+            background-size: cover;
+            "
+    >
+  <div class="card-body text-white">
+    <h5 class="card-title">Sharon Carter</h5>
+    <p class="card-text">
+      Meet Sharon Carter, Agent 13.
+    </p>
+    <a href="https://marvelcinematicuniverse.fandom.com/wiki/Sharon_Carter" class="btn btn-outline-light">Learn More</a>
+  </div>
+</div>
+<!-- Card, Sharon -->
+
+<br>
+
+                <p class="text-center fs-2 fst-italic fw-bold">"Symbols are nothing without the women and men that give them meaning."</p>
+                <p  class="text-center fst-italic fw-lighter fs-4">Sam Wilson</p>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
   </body>
 </html>

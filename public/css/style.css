@@ -1,0 +1,68 @@
+header {
+  position: relative;
+  background-color: black;
+  height: 400px;
+  min-height: 400px;
+  width: 310px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 310px;
+  min-height: 765px;
+  width: 765px;
+  height: 300px;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  padding-bottom: 30px;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+  padding-bottom: 30px;
+}
+
+@media {
+  header {
+    background: url('img/video.mp4') black no-repeat center center scroll;
+}
+h1 {
+    padding: 25px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-family: copperplate;
+    background-image: url("img/tfatws.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 310px;
+}
+
+p {
+    width: 310px;
+    padding: 15px;
+}
+
+.intro {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
